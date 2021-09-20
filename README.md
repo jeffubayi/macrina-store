@@ -2,7 +2,7 @@
 
 # Macrina Store
 
-online boutique
+Online boutique
 
 
 ## Features
