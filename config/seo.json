@@ -1,20 +1,20 @@
 {
-  "title": "ACME Storefront | Powered by Next.js Commerce",
-  "titleTemplate": "%s - ACME Storefront",
-  "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+  "title": "Macrina's Closet | Online cloth store",
+  "titleTemplate": "%s - Macrina Closet",
+  "description": "Macrina's Closet - Maasai Lodge(rongai stage) shop number 67",
   "openGraph": {
-    "title": "ACME Storefront | Powered by Next.js Commerce",
-    "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+    "title": "Macrina's Closet | Online cloth store",
+    "description": "Macrina's Closet - Maasai Lodge(rongai stage) shop number 67",
     "type": "website",
     "locale": "en_IE",
     "url": "https://nextjs.org/commerce",
-    "site_name": "Next.js Commerce",
+    "site_name": "Macrina's Closet",
     "images": [
       {
         "url": "/card.png",
         "width": 800,
         "height": 600,
-        "alt": "Next.js Commerce"
+        "alt": "Macrina's Closet"
       }
     ]
   },
