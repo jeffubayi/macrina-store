@@ -8,6 +8,7 @@ import { Github, Vercel } from '@components/icons'
 import { Logo, Container } from '@components/ui'
 import { I18nWidget } from '@components/common'
 import s from './Footer.module.css'
+import logo from "./logo.png"
 
 interface Props {
   className?: string
@@ -34,9 +35,10 @@ const Footer: FC<Props> = ({ className, pages }) => {
             <Link href="/">
               <a className="flex flex-initial items-center font-bold md:mr-24">
                 <span className="rounded-full border border-accent-6 mr-2">
-                  <Logo />
+                  <img alt="logo"
+                   src="https://t4.ftcdn.net/jpg/03/75/38/73/360_F_375387396_wSJM4Zm0kIRoG7Ej8rmkXot9gN69H4u4.jpg"></img>
                 </span>
-                <span>ACME</span>
+                <span>Macrina's Closet</span>
               </a>
             </Link>
           </div>
@@ -62,27 +64,22 @@ const Footer: FC<Props> = ({ className, pages }) => {
               >
                 <Github />
               </a>
-              <I18nWidget />
             </div>
           </div>
         </div>
         <div className="pt-6 pb-10 flex flex-col md:flex-row justify-between items-center space-y-4 text-accent-6 text-sm">
           <div>
-            <span>&copy; 2020 ACME, Inc. All rights reserved.</span>
+            <span>&copy; 2021 Macrina Closet.</span>
           </div>
           <div className="flex items-center text-primary text-sm">
-            <span className="text-primary">Created by</span>
+            <span className="text-primary">Created by </span>
             <a
               rel="noopener noreferrer"
-              href="https://vercel.com"
-              aria-label="Vercel.com Link"
+              href="https://jeffubayi.xyz"
               target="_blank"
               className="text-primary"
             >
-              <Vercel
-                className="inline-block h-6 ml-3 text-primary"
-                alt="Vercel.com Logo"
-              />
+              Ubeezy
             </a>
           </div>
         </div>
